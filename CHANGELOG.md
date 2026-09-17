@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.4
+
+- Added CommonJS compatibility while preserving the ESM API.
+
 ## 0.1.3
 
 - Documented the ESM module format.

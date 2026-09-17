@@ -22,3 +22,9 @@ test("rejects invalid payment data", () => {
   assert.throws(() => createUpiLink({ pa: "invalid" }), /valid UPI VPA/);
   assert.throws(() => createUpiLink({ pa: "merchant@upi", am: -1 }), /non-negative/);
 });
+
+test("CommonJS entry point exposes the public API", async () => {
+  const { createRequire } = await import("node:module");
+  const api = createRequire(import.meta.url)("../src/index.cjs");
+  assert.equal(api.isValidVpa("merchant@upi"), true);
+});
