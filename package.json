@@ -1,0 +1,40 @@
+{
+  "name": "@vjymisal0/upi-link",
+  "version": "0.1.0",
+  "description": "Create and parse UPI payment deep links with zero runtime dependencies.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "pack:check": "npm pack --dry-run"
+  },
+  "keywords": [
+    "upi",
+    "india",
+    "payments",
+    "payment-link",
+    "deep-link",
+    "npcI",
+    "qr"
+  ],
+  "author": "vjymisal0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vjymisal0/upi-link"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
