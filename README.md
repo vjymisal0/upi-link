@@ -1,5 +1,10 @@
 # @vjymisal0/upi-link
 
+## Module format
+
+This package is ESM-only. Use `import` syntax in Node.js projects with `type: module`. CommonJS applications can load it with `await import("@vjymisal0/upi-link")`.
+
+
 Create and parse UPI payment deep links with zero runtime dependencies.
 
 ## Install
