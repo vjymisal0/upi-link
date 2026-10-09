@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.6
+
+- Added top-level `main`, `module` and `types` fields for tools that ignore `exports`.
+- Added `homepage` and `bugs` metadata; fixed the `npci` keyword.
+
 ## 0.1.5
 
 - Expanded API documentation and documented limitations.

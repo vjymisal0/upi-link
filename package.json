@@ -1,8 +1,11 @@
 {
   "name": "@vjymisal0/upi-link",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Create and parse UPI payment deep links with zero runtime dependencies.",
   "type": "module",
+  "main": "./src/index.cjs",
+  "module": "./src/index.js",
+  "types": "./src/index.d.ts",
   "exports": {
     ".": {
       "import": {
@@ -31,8 +34,11 @@
     "payments",
     "payment-link",
     "deep-link",
-    "npcI",
-    "qr"
+    "npci",
+    "qr",
+    "bhim",
+    "payment-request",
+    "upi-intent"
   ],
   "author": "vjymisal0",
   "license": "MIT",
@@ -42,5 +48,9 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "homepage": "https://github.com/vjymisal0/upi-link#readme",
+  "bugs": {
+    "url": "https://github.com/vjymisal0/upi-link/issues"
   }
 }
